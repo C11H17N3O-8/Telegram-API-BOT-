@@ -3,7 +3,7 @@ from telegram import Bot
 
 async def get_user_chat_id():
     # 봇 토큰을 설정합니다.
-    telegram_bot_token = '6626627710:AAGvekwMgs7iIFCiKDegQi_03CWamn8tTy8'
+    telegram_bot_token = 'YOUR BOT TOKEN'
 
     # 텔레그램 봇 초기화
     bot = Bot(token=telegram_bot_token)
